@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grocery.css">
+    
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+
+    <header class="header">
+     
+    <a href="#" class="logo"><h2>Eco<span>Market</span></h2></a>
+       
+
+        <nav class="navbar">  
+           <ul>
+           <li> <a href="#home">home</a></li>
+            <li><a href="#features">features</a></li>
+           <li> <a href="#products">products</a></li>
+            <li><a href="#categories">categories</a></li>
+            <li><a href="#review">reviews</a></li>
+           <li><a href="#blogs">blogs</a></li>
+           </ul>
+        </nav>
+
+        <div class="icons">
+            <button id="menu-btn">M</button>
+            <button id="search-btn">S</button>   
+            <button id="cart-btn">C</button>
+            <button id="login">L</button>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here--">
+            <label for="search-box"></label>
+        </form>  
+
+        <div class="shopping-cart">
+            <div class="box">
+                <img src="images/images (7).jpeg" alt="">
+                <div class="content">
+                    <h3>strawberry</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 5</span>
+                    <button class="button" id="delet">D</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/images (8).jpeg" alt="">
+                <div class="content">
+                    <h3>Orange</h3>
+                    <span class="price">$3.99/-</span>
+                    <span class="quantity">qty : 3</span>
+                    <button class="button" id="delet" >D</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/images (9).jpeg" alt="">
+                <div class="content">
+                    <h3>Apple</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 4</span>
+                    <button class="button" id="delet">D</button>
+                </div>
+            </div>
+            <div class="total">Total : $13.97/-</div>
+            <a href=" " class="btn">CheckOut</a>
+            </div>
+
+            <form action="" class="login-form">
+                <h3>login now</h3>
+                <input type="email" placeholder="enter your email" class="box">
+                <input type="password" placeholder="enter your password" class="box">
+                <p>forgot password ?<a href="#"> click here</a></p>
+                <p>dont have account? <a href="#">creat now</a></p>
+                <input type="submit" placeholder="enter your email" class="btn">
+            </form>
+
+           
+    </header>
+
+    <!-- HOME SECTION -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Fresh and<span> Organic </span>Products For You</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis consequatur impedit officia quia culpa rem quibusdam sed deleniti reprehenderit at!</p>
+            <a href="#" class="btn shop">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+
+    <section class="features" id="features">
+
+        <h1 class="heading">Our<span>Features</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/images (13).jpeg" alt="">
+                <h3>fresh and organic</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, aspernatur.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/images (3).jpeg" alt="">
+                <h3>free delivery</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, aspernatur.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/images (4).jpeg" alt="">
+                <h3>instant payments</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, aspernatur.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading">Our<span>Product</span></h1>
+
+     <div class="product-slider">
+
+        <div class="wrapper">
+
+            <div class="box">
+                <img src="images/images (10).jpeg" alt="#">
+                <h3>Fresh Avacados</h3>
+                <div class="price">$4.99/- - $10.99/-</div>
+                <div class="starts">
+                    &starf;&starf;&starf;&starf;&star;
+                </div>
+                <button class="btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/images (11).jpeg" alt="#">
+                <h3>Fresh Watermelon</h3>
+                <div class="price">$5.99/- - $7.99/-</div>
+                <div class="starts">
+                    &starf;&starf;&starf;&starf;&starf;
+                </div>
+                <button class="btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/images (12).jpeg" alt="#">
+                <h3>Fresh Meat</h3>
+                <div class="price">$10.99/- - $15.99/-</div>
+                <div class="starts">
+                    &starf;&starf;&starf;&starf;
+                </div>
+                <button class="btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/images (13).jpeg" alt="#">
+                <h3>Fresh Vegitables</h3>
+                <div class="price">$1.99/- - $5.99/-</div>
+                <div class="starts">
+                    &starf;&starf;&starf;&starf;
+                </div>
+                <button class="btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+        </div>
+     </div>
+
+     <div class="product-slider">
+        
+        <div class="wrapper">
+
+            <div class="box">
+                <img src="images/images (14).jpeg" alt="#">
+                <h3>Fresh Milk Products</h3>
+                <div class="price">$4.99/- - $10.99/-</div>
+                <div class="starts">
+                    &starf;&starf;&starf;&starf;&star;
+                </div>
+                <button class="btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/images (15).jpeg" alt="#">
+                <h3>Fresh Fruits</h3>
+                <div class="price">$5.99/- - $7.99/-</div>
+                <div class="starts">
+                    &starf;&starf;&starf;&starf;&starf;
+                </div>
+                <button class="btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/images (8).jpeg" alt="#">
+                <h3>Fresh Oranges</h3>
+                <div class="price">$2.99/- - $6.99/-</div>
+                <div class="starts">
+                    &starf;&starf;&starf;
+                </div>
+                <button class="btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/images (9).jpeg" alt="#">
+                <h3>Fresh Apples</h3>
+                <div class="price">$2.99/- - $5.99/-</div>
+                <div class="starts">
+                    &starf;&starf;&starf;&starf;
+                </div>
+                <button class="btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+        </div>
+     </div>
+    </section>
+
+    <!-- CATEGORIES -->
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading">product<span>categories</span></h1>
+
+        <div class="container">
+
+            <div class="box">
+                <img src="images/images (15).jpeg" alt="">
+                <h3>fruits</h3>
+                <p>upto 45% off</p>
+                <button class="btn"><a href="#">shop now</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/images (14).jpeg" alt="">
+                <h3>diary products</h3>
+                <p>upto 30% off</p>
+                <button class="btn"><a href="#">shop now</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/images (13).jpeg" alt="">
+                <h3>fruits</h3>
+                <p>upto 25% off</p>
+                <button class="btn"><a href="#">shop now</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/images (16).jpeg" alt="">
+                <h3>fruits</h3>
+                <p>upto 15% off</p>
+                <button class="btn"><a href="#">shop now</a></button>
+            </div>
+
+        </div>
+    </section>
+
+<!--REVIEWS -->
+
+
+    <section class="review" id="review">
+        <h1 class="heading">customer's<span>review</span></h1>
+
+        <div class="review-slider">
+            
+            <div class="wrapper">
+                <div class="box">
+                    <img src="images/images (8).jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio rerum, voluptatum asperiores soluta doloribus quasi assumenda! Repellendus sunt quam praesentium possimus at consectetur deserunt iure autem eum esse? Doloremque.</p>
+                    <h3>thilak pulusu</h3>
+                    <div class="stars">
+                        &starf; &starf; &starf; &starf; &star;
+                    </div>
+            </div>
+                <div class="box">
+                    <img src="images/IMG_20230706_100121.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio rerum, voluptatum asperiores soluta doloribus quasi assumenda! Repellendus sunt quam praesentium possimus at consectetur deserunt iure autem eum esse? Doloremque.</p>
+                    <h3>praveen gokavarpu</h3>
+                    <div class="stars">
+                        &starf; &starf; &starf; &starf; &star;
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/IMG_20230706_100239.jpg    " alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio rerum, voluptatum asperiores soluta doloribus quasi assumenda! Repellendus sunt quam praesentium possimus at consectetur deserunt iure autem eum esse? Doloremque.</p>
+                    <h3>Charan ganesula</h3>
+                    <div class="stars">
+                        &starf; &starf; &starf; &starf; &star;
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/IMG_20230706_100215.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio rerum, voluptatum asperiores soluta doloribus quasi assumenda! Repellendus sunt quam praesentium possimus at consectetur deserunt iure autem eum esse? Doloremque.</p>
+                    <h3>eshwar prashanth</h3>
+                    <div class="stars">
+                        &starf; &starf; &starf; &starf; &star;
+                    </div>
+    
+            </div>
+            <div class="box">
+                <img src="images/images (8).jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio rerum, voluptatum asperiores soluta doloribus quasi assumenda! Repellendus sunt quam praesentium possimus at consectetur deserunt iure autem eum esse? Doloremque.</p>
+                <h3>varshit anna</h3>
+                <div class="stars">
+                    &starf; &starf; &starf; &starf; &star;
+                </div>
+        </div>
+        </div>
+    </section>
+
+  <!-- FOOTER -->
+
+  <sectiion class="footer">
+
+    <div class="box-container">
+
+    <div class="box">
+        <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">linked-in</a>
+            <a href="#">youtube</a> 
+    </div>
+
+    <div class="box " >
+        <h3>Contact us</h3>
+       <a href="#">&phone;+825736892</a>
+       <a href="#">&phone;+927625268</a>
+       <a href="#">&phone;+862789892</a>
+       <a href="#">&phone;+913302328</a>
+    </div>
+
+    <div class="box" >
+        <h3>quick links</h3>
+       <a href="#">home</a>
+       <a href="#">products</a>
+       <a href="#">categories</a>
+       <a href="#">reviews</a>
+    </div>
+    </div>
+
+  </sectiion>
+
+<div class="credit">created by <span>mr. web designer </span> | all rights are reserved 2022 &copy; | </div>
+
+    <script src="../grocery.js"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
